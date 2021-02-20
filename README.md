@@ -60,7 +60,7 @@ def takeCommand():
         return "None"
     return query
 
-def sendEmail(to, content):
+ def sendEmail(to, content):
     #init gmail SMTP
     server = smtplib.SMTP('smtp.gmail.com', 587)
     #identify to server
